@@ -1,1 +1,8 @@
-
+{
+  "name": "cbc-ai-assistant",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "openai": "^5.0.0"
+  }
+}
