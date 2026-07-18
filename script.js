@@ -12,7 +12,7 @@ async function sendMessage() {
     userInput.value = "";
 
     try {
-        const response = await fetch("YOUR_BACKEND_URL/chat", {
+        const response = await fetch("api/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
